@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(fundo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 30px;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0, 1);
+    border-radius: 30px;
+}
+
+
+
+.container .lado_esquerdo {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 400px;
+}
+
+.container .lado_direito {
+    position: relative;
+    background: white;
+    padding: 40px;
+    border-radius: 30px;
+
+}
+
+.textoPrincipal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+#texto2 {
+    text-align: center;
+    margin-left: 5%;
+    color: #8e8a8a;
+}
+
+img {
+    border-radius: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    line-height: 1.0em;
+    font-family: ''
+
+}
+
+h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+
+.contato {
+    padding-top: 20px;
+}
+
+.informacoes {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contato ul {
+    position: relative;
+}
+
+.contato ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.texto {
+    color: #fff;
+}
+
+.projeto {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.escolaridade {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sobreMim {
+    text-align: center;
+    padding: 5px;
+    margin: 5px 15px 10px 15px;
+}
+
+#cursos {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
